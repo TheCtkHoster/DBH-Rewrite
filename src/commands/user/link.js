@@ -226,7 +226,7 @@ module.exports = {
             premiumUsed: 0,
         })
 
-        const logEmbed = new MessageEmbed()
+        const logEmbed = new EmbedBuilder()
             .setColor(Colors.Green)
             .setTitle("User linked")
             .setDescription(`${message.author} has linked an account!`)
